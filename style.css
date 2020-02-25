@@ -65,3 +65,65 @@ img{
 .clear {
   clear:both;
 }
+
+/* INIZIO PARTE RESPONSIVE (420PX) */
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right {
+    float: none;
+    display: block;
+    margin: auto;
+    font-size: 17px;
+}
+
+  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 120px;
+    font-size: 17px;
+}
+
+  .row {
+    width: 100%;
+  }
+
+  .left, .center, .right{
+  }
+
+  .right {
+    margin-top: 40px;
+  }
+
+  #lezioni img {
+    height: 120px;
+    margin-top: 30px;
+ }
+
+  #steps img {
+    display: block;
+    margin: auto;
+    height: 120px;
+ }
+
+ #why {
+   margin: auto;
+ }
+
+
+
+
+}
+/* FINE PARTE RESPONSIVE (420PX) */
